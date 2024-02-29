@@ -1,0 +1,4 @@
+SPA và MPA
+MPA là người dùng truy cập các trang con trên web ,thì sever sẽ xử lý và trả về oàn bộ trang web và web đó sẽ được load mới hoàn toàn
+Single Page Application 
+SPA là khi người dùng  truy cập các trang con trên web ,website chỉ load lại các phần đã thay đổi, những giao diện ko thay đổi sẽ ko được load lại
