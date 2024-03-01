@@ -1,0 +1,14 @@
+extends layouts/demo.pug
+include mixins/box-head.pug
+block main 
+
+
+ +box-head("Danh Sách Sản Phẩm","Đây là nội dung Danh Sách Sản Phẩm")
+ div #{sanpham}
+  ul 
+   each item in sanpham
+    li #{item.title}
+    li #{item.price}
+    li #{item.thumbnail}
+
+
